@@ -29,7 +29,7 @@
         "info": {
             "createdBy": "WarrenD",
             "dateCreated": "2019-9-27",
-            "dateLastEdited": "2019-9-30"
+            "dateLastEdited": "2019-10-2"
         },
         "warnBeforeSessionExpires": true,
         "checkSessionEvery": 1,
@@ -101,14 +101,14 @@
         "page_fields": [
             {
                 "controlType": "layout_directive_FrameBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=b15e2d44_1183_4972_8869_1c519961b858}{I:'$$control.group'} [Frame: <DEFINITIONS> - FRAME_1]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=b15e2d44_1183_4972_8869_1c519961b858}{I:'$$control.group'} [Frame: Definitions]",
                 "displayODFlat": "{Data=b15e2d44_1183_4972_8869_1c519961b858}{I:'$$control.group'} [Frame: Definitions]",
                 "idInternal": "b15e2d44_1183_4972_8869_1c519961b858",
                 "lastIndex": 17,
                 "parentContainer": -1,
                 "displayOD": "{Data=b15e2d44_1183_4972_8869_1c519961b858}{I:'$$control.group'} [Frame: Definitions]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=b15e2d44_1183_4972_8869_1c519961b858}{I:'$$control.group'} [Frame: <DEFINITIONS> - FRAME_1]",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=b15e2d44_1183_4972_8869_1c519961b858}{I:'$$control.group'} [Frame: Definitions]",
                 "v": {
                     "FrameTitle": "DEFINITIONS",
                     "Frame": {
@@ -159,9 +159,9 @@
                         },
                         "subType": "None",
                         "edgeOffset": "",
+                        "contentVerticalAlign": "Top",
                         "useFlex": false,
                         "useFlexLeft": false,
-                        "contentVerticalAlign": "Top",
                         "alignItems": ""
                     },
                     "Spacer": {
@@ -183,34 +183,20 @@
             },
             {
                 "controlType": "TabbedUIButton",
-                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=50b89949_673a_4219_a761_06b127e2d662}{I:'$$control.html.advButton'} [Tabbed UI Button: Accounts (Grid Component)] �",
+                "display": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=50b89949_673a_4219_a761_06b127e2d662}{I:'$$control.html.advButton'} [Tabbed UI Button: Accounts] �",
                 "displayODFlat": "{Data=50b89949_673a_4219_a761_06b127e2d662}{I:'$$control.html.advButton'} [Tabbed UI Button: Accounts] �",
                 "idInternal": "50b89949_673a_4219_a761_06b127e2d662",
                 "parentContainer": 2,
                 "displayOD": "{Data=50b89949_673a_4219_a761_06b127e2d662}{I:'$$control.html.advButton'} [Tabbed UI Button: Accounts] �",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=50b89949_673a_4219_a761_06b127e2d662}{I:'$$control.html.advButton'} [Tabbed UI Button: Accounts (Grid Component)] �",
-                "indentTree": 2,
-                "precalc": {
-                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;\" title=\"\"  onclick=\"action_{alias}_50b89949_673a_4219_a761_06b127e2d662(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Accounts</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.0in; font: 0pt;\"></div><!--breakend-->\n\t",
-                    "tabbedUIButtonJavascript": "window['action_{alias}_50b89949_673a_4219_a761_06b127e2d662'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\tgo.gridName = 'grid_accounts';\n\tgo.alias = 'GRID_ACCOUNTS';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = 'ARGTENANTID|Numeric|CURRENTUSER|Null|Null|__NoDefaultValue__';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Accounts',  name :'GRID_ACCOUNTS', type:'grid', data: go , autoRefresh: false   }); \n\t\n}\n"
-                },
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "inPanelCard": false,
-                "inTreeControl": false,
+                "displayODtree": "{B=White,Light Blue}{I:'vertLine'}{I:'vertLine'}{Data=50b89949_673a_4219_a761_06b127e2d662}{I:'$$control.html.advButton'} [Tabbed UI Button: Accounts] �",
                 "v": {
                     "tabbedUI": {
-                        "tab": {
-                            "className": "",
-                            "selectedClassName": ""
-                        },
                         "buttonType": "Button",
                         "buttonText": "Accounts",
                         "actionType": "Component",
                         "paneTitle": "Accounts",
                         "canClosePane": true,
-                        "keyboardshortcutkey": "",
                         "treeControl": {
                             "controlNesting": "SameLevelAsPrevious",
                             "outdentLevel": 1,
@@ -286,7 +272,12 @@
                                 },
                                 "bookMarkPanelSize": "3in"
                             }
-                        }
+                        },
+                        "tab": {
+                            "className": "",
+                            "selectedClassName": ""
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -309,7 +300,16 @@
                         }
                     },
                     "_displayText": "[Tabbed UI Button: Accounts (Grid Component)]"
-                }
+                },
+                "indentTree": 2,
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;\" title=\"\"  onclick=\"action_{alias}_50b89949_673a_4219_a761_06b127e2d662(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Accounts</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.0in; font: 0pt;\"></div><!--breakend-->\n\t",
+                    "tabbedUIButtonJavascript": "window['action_{alias}_50b89949_673a_4219_a761_06b127e2d662'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\tgo.gridName = 'grid_accounts';\n\tgo.alias = 'GRID_ACCOUNTS';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = 'ARGTENANTID|Numeric|CURRENTUSER|Null|Null|__NoDefaultValue__';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Accounts',  name :'GRID_ACCOUNTS', type:'grid', data: go , autoRefresh: false   }); \n\t\n}\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "inPanelCard": false,
+                "inTreeControl": false
             },
             {
                 "controlType": "TabbedUIButton",
@@ -403,17 +403,18 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
                     "BreakType": "After",
                     "breakHeight": ".0in",
                     "breakHorizontalSpace": "0in",
+                    "securityGroups": "c3b1d0c820614e40b47b5ab25e1dc524,Administrators,17e56b4e747b4a9bab3cd308064337dc,CustomerAdmins,920f56bd4ba34e51b27f72c792ee65e2,Users",
                     "javascript": {
                         "onclick": "action_{alias}_1af69921_f143_4e7f_ada1_0ff7595f0268(); return false;"
                     },
@@ -532,11 +533,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -661,11 +662,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -790,11 +791,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -919,11 +920,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1048,11 +1049,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1177,11 +1178,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1306,11 +1307,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1435,11 +1436,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1564,11 +1565,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1693,11 +1694,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1822,11 +1823,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -1861,13 +1862,13 @@
             },
             {
                 "controlType": "layout_directive_ContainerEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e8ad0d65_c70a_44d5_8b46_db8298fa4832}{I:'vertLineCap'} [Container End: CONTAINER_1]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e8ad0d65_c70a_44d5_8b46_db8298fa4832}{I:'vertLineCap'} [Container End]",
                 "displayODFlat": "{Data=e8ad0d65_c70a_44d5_8b46_db8298fa4832}{I:'$$format.border.style.dash'} [Container End]",
                 "idInternal": "e8ad0d65_c70a_44d5_8b46_db8298fa4832",
                 "parentContainer": 1,
                 "displayOD": "{Data=e8ad0d65_c70a_44d5_8b46_db8298fa4832}{I:'$$format.border.style.dash'} [Container End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e8ad0d65_c70a_44d5_8b46_db8298fa4832}{I:'vertLineCap'} [Container End: CONTAINER_1]",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{I:'vertLine'}{Data=e8ad0d65_c70a_44d5_8b46_db8298fa4832}{I:'vertLineCap'} [Container End]",
                 "v": {
                     "container": {
                         "BreakType": "None",
@@ -1888,13 +1889,13 @@
             },
             {
                 "controlType": "layout_directive_FrameEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=aaf8ac16_1bec_44f8_bbfd_52b1f407c07a}{I:'vertLineCap'} [Frame End - FRAME_1]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=aaf8ac16_1bec_44f8_bbfd_52b1f407c07a}{I:'vertLineCap'} [Frame End]",
                 "displayODFlat": "{Data=aaf8ac16_1bec_44f8_bbfd_52b1f407c07a}{I:'$$control.group'} [Frame End]",
                 "idInternal": "aaf8ac16_1bec_44f8_bbfd_52b1f407c07a",
                 "parentContainer": -1,
                 "displayOD": "{Data=aaf8ac16_1bec_44f8_bbfd_52b1f407c07a}{I:'$$control.group'} [Frame End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=aaf8ac16_1bec_44f8_bbfd_52b1f407c07a}{I:'vertLineCap'} [Frame End - FRAME_1]",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=aaf8ac16_1bec_44f8_bbfd_52b1f407c07a}{I:'vertLineCap'} [Frame End]",
                 "v": {
                     "Frame": {
                         "BreakType": "None",
@@ -1913,14 +1914,14 @@
             },
             {
                 "controlType": "layout_directive_FrameBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=82790dce_1414_4d98_bd12_c7f948d1b800}{I:'$$control.group'} [Frame: <ACCOUNTING> - FRAME_2]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=82790dce_1414_4d98_bd12_c7f948d1b800}{I:'$$control.group'} [Frame: ACCOUNTING]",
                 "displayODFlat": "{Data=82790dce_1414_4d98_bd12_c7f948d1b800}{I:'$$control.group'} [Frame: ACCOUNTING]",
                 "idInternal": "82790dce_1414_4d98_bd12_c7f948d1b800",
                 "lastIndex": 29,
                 "parentContainer": -1,
                 "displayOD": "{Data=82790dce_1414_4d98_bd12_c7f948d1b800}{I:'$$control.group'} [Frame: ACCOUNTING]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=82790dce_1414_4d98_bd12_c7f948d1b800}{I:'$$control.group'} [Frame: <ACCOUNTING> - FRAME_2]",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=82790dce_1414_4d98_bd12_c7f948d1b800}{I:'$$control.group'} [Frame: ACCOUNTING]",
                 "v": {
                     "FrameTitle": "ACCOUNTING",
                     "Frame": {
@@ -2025,9 +2026,9 @@
                             "canHide": true
                         },
                         "grid": {
-                            "gridName": "ux_jv2_v2",
+                            "gridName": "ux_jv2",
                             "componentType": "UX",
-                            "alias": "UX_JV2_V2",
+                            "alias": "<DefaultAlias>",
                             "useMasterStyle": true,
                             "workingMessage": "<img src=\"css/A5System/Images/wait.gif\" /> Working..."
                         },
@@ -2082,11 +2083,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -2112,7 +2113,7 @@
                 "indentTree": 2,
                 "precalc": {
                     "ControlHTML": "<div class=\"A5container\">\n\t<button type=\"button\" class=\"[class.dialogButton]\" style=\"width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;\" title=\"\"  onclick=\"action_{alias}_e5b096b3_4046_476a_bfb7_04af10ea5a1b(); return false;\" onmousedown=\"A5._btn(this,'onmousedown','{grid.style}'); $e.preventDefault(event);\" onmouseup=\"A5._btn(this,'onmouseup','{grid.style}');\" onmouseover=\"A5._btn(this,'onmouseover','{grid.style}');\" onmouseout=\"A5._btn(this,'onmouseout','{grid.style}');\"  >Transactions of JVS</button>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><div  style=\"height:.0in; font: 0pt;\"></div><!--breakend-->\n\t",
-                    "tabbedUIButtonJavascript": "window['action_{alias}_e5b096b3_4046_476a_bfb7_04af10ea5a1b'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\t\tgo.dialog2Name = 'ux_jv2_v2';\n\tgo.type = 'dialog2';\n\t\n\tgo.alias = 'UX_JV2_V2';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = 'ARGTENANTID|Numeric|CURRENTUSER|Null|Null|__NoDefaultValue__';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Transactions of JVS',  name :'UX_JV2_V2', type:'dialog2', data: go , autoRefresh: false   }); \n\t\n}\n"
+                    "tabbedUIButtonJavascript": "window['action_{alias}_e5b096b3_4046_476a_bfb7_04af10ea5a1b'] = function() {\n\t\n\t\n\tvar onCompleteCode = '';\n\tvar callbackId = A5.UUID();\n\tvar objx = tbiObj._ajaxCallbackCompleteCode;\n\tif(typeof objx == 'undefined') objx = {};\n\tobjx[callbackId] = Function(onCompleteCode);\n\t\n\n\n\tvar go = new Object();\n\t\tgo.dialog2Name = 'ux_jv2';\n\tgo.type = 'dialog2';\n\t\n\tgo.alias = '{alias}_UX_JV2_125851FQNY';\n\tgo.workingMessage = '<img src=\"css/A5System/Images/wait.gif\" /> Working...';\n\tgo.flagTimer = 'F';\n\tgo.flagQueryEcho = 'F';\n\tgo.flagDebugMode = 'F';\n\tgo.userFilter = '';\n\tgo.baseFilter = '';\n\tgo.userOrder = '';\n\tgo.overrideSettings = 'style_name=`{tabbedUI.style}`'+'||';\n\tgo.arguments = '';\n\t\n\t\n\tgo.localArguments = 'ARGTENANTID|Numeric|CURRENTUSER|Null|Null|__NoDefaultValue__';\n\tgo.linkDefinition = '';\n\tgo.placeHolderValues = '';\n\tgo.parameterBucket = $gvs('{alias}.PARAMETERBUCKET');\n\tgo.argumentValueBucket = $gvs('{alias}.ARGUMENTVALUES');\n\tgo.a5_default_path = '{tabbedUI.a5_default_path}';\n\tgo.onLoadCompleteJavascript = 'run:'+callbackId;\n\t\n\tgo._runningInMobilePreview = tbiObj._mobilePreview;\n\t\n\tif(typeof tbiObj != 'undefined' && typeof tbiObj._workingPreviewHost != 'undefined') { \n\t\tgo._workingPreviewHost = tbiObj._workingPreviewHost;\n\t}\n\n\n\t\n\t{tabbedUI.alias}Obj.add({title: 'Transactions of JVS',  name :'{alias}_UX_JV2_125851FQNY', type:'dialog2', data: go , autoRefresh: false   }); \n\t\n}\n"
                 },
                 "isCollapsed": false,
                 "parentIsCollapsed": false,
@@ -2211,11 +2212,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -2340,11 +2341,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -2469,11 +2470,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -2598,11 +2599,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -2727,11 +2728,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -2978,11 +2979,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -3044,13 +3045,13 @@
             },
             {
                 "controlType": "layout_directive_FrameEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cd169760_284a_48de_8ab0_5b528358c917}{I:'vertLineCap'} [Frame End - FRAME_2]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cd169760_284a_48de_8ab0_5b528358c917}{I:'vertLineCap'} [Frame End]",
                 "displayODFlat": "{Data=cd169760_284a_48de_8ab0_5b528358c917}{I:'$$control.group'} [Frame End]",
                 "idInternal": "cd169760_284a_48de_8ab0_5b528358c917",
                 "parentContainer": -1,
                 "displayOD": "{Data=cd169760_284a_48de_8ab0_5b528358c917}{I:'$$control.group'} [Frame End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cd169760_284a_48de_8ab0_5b528358c917}{I:'vertLineCap'} [Frame End - FRAME_2]",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=cd169760_284a_48de_8ab0_5b528358c917}{I:'vertLineCap'} [Frame End]",
                 "v": {
                     "Frame": {
                         "BreakType": "None",
@@ -3602,11 +3603,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -3937,20 +3938,14 @@
             },
             {
                 "controlType": "layout_directive_FrameBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=dda72281_32af_45e6_b15c_b5bf2f39f376}{I:'$$control.group'} [Frame: <CHECKS> - FRAME_10]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=dda72281_32af_45e6_b15c_b5bf2f39f376}{I:'$$control.group'} [Frame: CHECKS]",
                 "displayODFlat": "{Data=dda72281_32af_45e6_b15c_b5bf2f39f376}{I:'$$control.group'} [Frame: CHECKS]",
                 "idInternal": "dda72281_32af_45e6_b15c_b5bf2f39f376",
                 "lastIndex": 46,
                 "parentContainer": -1,
                 "displayOD": "{Data=dda72281_32af_45e6_b15c_b5bf2f39f376}{I:'$$control.group'} [Frame: CHECKS]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=dda72281_32af_45e6_b15c_b5bf2f39f376}{I:'$$control.group'} [Frame: <CHECKS> - FRAME_10]",
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<!--TAGSTART:dda72281_32af_45e6_b15c_b5bf2f39f376-->\n<div id=\"{grid.componentname}FRAME_10\" class=\"A5container\"     style=\"width: 190px; \"  ><!-- DIV Container for showHidePanel '{grid.componentName}.FRAME_10'-->\n\t<div class=\"[theme:accordion.base.className|{dialog.style}Accordion]\">\n\t<a \thref=\"#\" id=\"{grid.componentname}FRAME_10.A\"\n\t\tonclick=\"if($('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}').style.display=='none') {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}').style.display='';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_10.R{grid.rowNumber}'),'css/MYICONS/UP.PNG');\n\tthis.className = '[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]';\n} else {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}').style.display='none';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_10.R{grid.rowNumber}'),'css/MYICONS/DOWN.PNG');\n\tthis.className = '[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]';\nreturn false;\n}\n\"\n\t\tclass=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]  \"\n\t\tstyle=\"width: 205px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;\"\n\t\t_aaframeid=\"FRAME_10\" \n\t\t_aaframeopenicon=\"css/MYICONS/UP.PNG\" \n\t\t_aaframeclosedicon=\"css/MYICONS/DOWN.PNG\" \n\t\t_aaframetitleclassname=\"[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]\" \n\t\t_aafremetitlecollapsedclassname=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]\"\n\t\t>\n\t\t<img \tsrc=\"css/MYICONS/DOWN.PNG\" id=\"{grid.componentName}.SHOWHIDEPANELIMG.FRAME_10.R{grid.rowNumber}\" style=\"border:none;vertical-align:middle;\" />&nbsp;CHECKS</a>\n\t\t<div \tid=\"{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}\"\n\t\t\t\tclass=\"[theme:accordion.base.paneClassName|class.ModernFrameBody] \"\n\t\t\t\tstyle=\"width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;; display:none;\">\n"
-                },
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=dda72281_32af_45e6_b15c_b5bf2f39f376}{I:'$$control.group'} [Frame: CHECKS]",
                 "v": {
                     "FrameTitle": "CHECKS",
                     "Frame": {
@@ -3963,9 +3958,9 @@
                         "showHideEnabled": true,
                         "openIcon": "css/MYICONS/UP.PNG",
                         "closedIcon": "css/MYICONS/DOWN.PNG",
-                        "nonFloating": false,
                         "initialState": "Hidden",
                         "framepanestyle": "width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;",
+                        "nonFloating": false,
                         "oneFrameOpenOnly": false
                     },
                     "securityGroups": "c3b1d0c820614e40b47b5ab25e1dc524,Administrators,17e56b4e747b4a9bab3cd308064337dc,CustomerAdmins,920f56bd4ba34e51b27f72c792ee65e2,Users",
@@ -3973,7 +3968,13 @@
                         "javascriptAbstractSetupCode": ""
                     },
                     "_displayText": "[Frame: <CHECKS> - FRAME_10]"
-                }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<!--TAGSTART:dda72281_32af_45e6_b15c_b5bf2f39f376-->\n<div id=\"{grid.componentname}FRAME_10\" class=\"A5container\"     style=\"width: 190px; \"  ><!-- DIV Container for showHidePanel '{grid.componentName}.FRAME_10'-->\n\t<div class=\"[theme:accordion.base.className|{dialog.style}Accordion]\">\n\t<a \thref=\"#\" id=\"{grid.componentname}FRAME_10.A\"\n\t\tonclick=\"if($('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}').style.display=='none') {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}').style.display='';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_10.R{grid.rowNumber}'),'css/MYICONS/UP.PNG');\n\tthis.className = '[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]';\n} else {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}').style.display='none';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_10.R{grid.rowNumber}'),'css/MYICONS/DOWN.PNG');\n\tthis.className = '[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]';\nreturn false;\n}\n\"\n\t\tclass=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]  \"\n\t\tstyle=\"width: 205px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;\"\n\t\t_aaframeid=\"FRAME_10\" \n\t\t_aaframeopenicon=\"css/MYICONS/UP.PNG\" \n\t\t_aaframeclosedicon=\"css/MYICONS/DOWN.PNG\" \n\t\t_aaframetitleclassname=\"[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]\" \n\t\t_aafremetitlecollapsedclassname=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]\"\n\t\t>\n\t\t<img \tsrc=\"css/MYICONS/DOWN.PNG\" id=\"{grid.componentName}.SHOWHIDEPANELIMG.FRAME_10.R{grid.rowNumber}\" style=\"border:none;vertical-align:middle;\" />&nbsp;CHECKS</a>\n\t\t<div \tid=\"{grid.componentName}.SHOWHIDEPANELDIV.FRAME_10.R{grid.rowNumber}\"\n\t\t\t\tclass=\"[theme:accordion.base.paneClassName|class.ModernFrameBody] \"\n\t\t\t\tstyle=\"width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;; display:none;\">\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
@@ -4106,11 +4107,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -4235,11 +4236,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -4364,11 +4365,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width: 190px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #1965a3; font-weight: bold;",
@@ -4430,13 +4431,13 @@
             },
             {
                 "controlType": "layout_directive_FrameEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=081296dd_5b84_4d6c_9957_c1948f23f09b}{I:'vertLineCap'} [Frame End - FRAME_10]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=081296dd_5b84_4d6c_9957_c1948f23f09b}{I:'vertLineCap'} [Frame End]",
                 "displayODFlat": "{Data=081296dd_5b84_4d6c_9957_c1948f23f09b}{I:'$$control.group'} [Frame End]",
                 "idInternal": "081296dd_5b84_4d6c_9957_c1948f23f09b",
                 "parentContainer": -1,
                 "displayOD": "{Data=081296dd_5b84_4d6c_9957_c1948f23f09b}{I:'$$control.group'} [Frame End]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=081296dd_5b84_4d6c_9957_c1948f23f09b}{I:'vertLineCap'} [Frame End - FRAME_10]",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=081296dd_5b84_4d6c_9957_c1948f23f09b}{I:'vertLineCap'} [Frame End]",
                 "v": {
                     "Frame": {
                         "BreakType": "None",
@@ -4455,21 +4456,14 @@
             },
             {
                 "controlType": "layout_directive_FrameBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=91103f74_1228_4fd9_a61c_b424fe299f0e}{I:'$$control.group'} [Frame: <ADMIN> - FRAME_13]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=91103f74_1228_4fd9_a61c_b424fe299f0e}{I:'$$control.group'} [Frame: <No Label>]",
                 "displayODFlat": "{Data=91103f74_1228_4fd9_a61c_b424fe299f0e}{I:'$$control.group'} [Frame: <No Label>]",
                 "idInternal": "91103f74_1228_4fd9_a61c_b424fe299f0e",
                 "lastIndex": 52,
                 "parentContainer": -1,
                 "displayOD": "{Data=91103f74_1228_4fd9_a61c_b424fe299f0e}{I:'$$control.group'} [Frame: <No Label>]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=91103f74_1228_4fd9_a61c_b424fe299f0e}{I:'$$control.group'} [Frame: <ADMIN> - FRAME_13]",
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<!--TAGSTART:91103f74_1228_4fd9_a61c_b424fe299f0e-->\n<div id=\"{grid.componentname}FRAME_13\" class=\"A5container\"     style=\"width: 190px; \"  ><!-- DIV Container for showHidePanel '{grid.componentName}.FRAME_13'-->\n\t<div class=\"[theme:accordion.base.className|{dialog.style}Accordion]\">\n\t<a \thref=\"#\" id=\"{grid.componentname}FRAME_13.A\"\n\t\tonclick=\"if($('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}').style.display=='none') {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}').style.display='';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_13.R{grid.rowNumber}'),'css/MYICONS/UP.PNG');\n\tthis.className = '[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]';\n} else {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}').style.display='none';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_13.R{grid.rowNumber}'),'css/MYICONS/DOWN.PNG');\n\tthis.className = '[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]';\nreturn false;\n}\n\"\n\t\tclass=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]  \"\n\t\tstyle=\"width: 205px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;\"\n\t\t_aaframeid=\"FRAME_13\" \n\t\t_aaframeopenicon=\"css/MYICONS/UP.PNG\" \n\t\t_aaframeclosedicon=\"css/MYICONS/DOWN.PNG\" \n\t\t_aaframetitleclassname=\"[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]\" \n\t\t_aafremetitlecollapsedclassname=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]\"\n\t\t>\n\t\t<img \tsrc=\"css/MYICONS/DOWN.PNG\" id=\"{grid.componentName}.SHOWHIDEPANELIMG.FRAME_13.R{grid.rowNumber}\" style=\"border:none;vertical-align:middle;\" />&nbsp;ADMIN</a>\n\t\t<div \tid=\"{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}\"\n\t\t\t\tclass=\"[theme:accordion.base.paneClassName|class.ModernFrameBody] \"\n\t\t\t\tstyle=\"width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;; display:none;\">\n"
-                },
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "tmplTxtComputed": false,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=91103f74_1228_4fd9_a61c_b424fe299f0e}{I:'$$control.group'} [Frame: <No Label>]",
                 "v": {
                     "FrameTitle": "ADMIN",
                     "Frame": {
@@ -4482,9 +4476,9 @@
                         "showHideEnabled": true,
                         "openIcon": "css/MYICONS/UP.PNG",
                         "closedIcon": "css/MYICONS/DOWN.PNG",
-                        "nonFloating": false,
                         "initialState": "Hidden",
                         "framepanestyle": "width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;",
+                        "nonFloating": false,
                         "oneFrameOpenOnly": false
                     },
                     "securityGroups": "c3b1d0c820614e40b47b5ab25e1dc524,Administrators,17e56b4e747b4a9bab3cd308064337dc,CustomerAdmins",
@@ -4492,7 +4486,14 @@
                         "javascriptAbstractSetupCode": ""
                     },
                     "_displayText": "[Frame: <ADMIN> - FRAME_13]"
-                }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<!--TAGSTART:91103f74_1228_4fd9_a61c_b424fe299f0e-->\n<div id=\"{grid.componentname}FRAME_13\" class=\"A5container\"     style=\"width: 190px; \"  ><!-- DIV Container for showHidePanel '{grid.componentName}.FRAME_13'-->\n\t<div class=\"[theme:accordion.base.className|{dialog.style}Accordion]\">\n\t<a \thref=\"#\" id=\"{grid.componentname}FRAME_13.A\"\n\t\tonclick=\"if($('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}').style.display=='none') {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}').style.display='';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_13.R{grid.rowNumber}'),'css/MYICONS/UP.PNG');\n\tthis.className = '[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]';\n} else {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}').style.display='none';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_13.R{grid.rowNumber}'),'css/MYICONS/DOWN.PNG');\n\tthis.className = '[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]';\nreturn false;\n}\n\"\n\t\tclass=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]  \"\n\t\tstyle=\"width: 205px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;\"\n\t\t_aaframeid=\"FRAME_13\" \n\t\t_aaframeopenicon=\"css/MYICONS/UP.PNG\" \n\t\t_aaframeclosedicon=\"css/MYICONS/DOWN.PNG\" \n\t\t_aaframetitleclassname=\"[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]\" \n\t\t_aafremetitlecollapsedclassname=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]\"\n\t\t>\n\t\t<img \tsrc=\"css/MYICONS/DOWN.PNG\" id=\"{grid.componentName}.SHOWHIDEPANELIMG.FRAME_13.R{grid.rowNumber}\" style=\"border:none;vertical-align:middle;\" />&nbsp;ADMIN</a>\n\t\t<div \tid=\"{grid.componentName}.SHOWHIDEPANELDIV.FRAME_13.R{grid.rowNumber}\"\n\t\t\t\tclass=\"[theme:accordion.base.paneClassName|class.ModernFrameBody] \"\n\t\t\t\tstyle=\"width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;; display:none;\">\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "tmplTxtComputed": false
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
@@ -4514,9 +4515,9 @@
                         },
                         "subType": "None",
                         "edgeOffset": "",
+                        "contentVerticalAlign": "Top",
                         "useFlex": true,
                         "useFlexLeft": false,
-                        "contentVerticalAlign": "Top",
                         "alignItems": ""
                     },
                     "Spacer": {
@@ -4629,11 +4630,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width:1.5in;",
@@ -4759,11 +4760,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width:1.5in;",
@@ -4826,13 +4827,13 @@
             },
             {
                 "controlType": "layout_directive_FrameEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=6d6c5a55_4aab_448d_a76a_d645a8deb039}{I:'vertLineCap'} [Frame End - FRAME_13] �",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=6d6c5a55_4aab_448d_a76a_d645a8deb039}{I:'vertLineCap'} [Frame End] �",
                 "displayODFlat": "{Data=6d6c5a55_4aab_448d_a76a_d645a8deb039}{I:'$$control.group'} [Frame End] �",
                 "idInternal": "6d6c5a55_4aab_448d_a76a_d645a8deb039",
                 "parentContainer": -1,
                 "displayOD": "{Data=6d6c5a55_4aab_448d_a76a_d645a8deb039}{I:'$$control.group'} [Frame End] �",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=6d6c5a55_4aab_448d_a76a_d645a8deb039}{I:'vertLineCap'} [Frame End - FRAME_13] �",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=6d6c5a55_4aab_448d_a76a_d645a8deb039}{I:'vertLineCap'} [Frame End] �",
                 "v": {
                     "Frame": {
                         "BreakType": "After",
@@ -4851,21 +4852,14 @@
             },
             {
                 "controlType": "layout_directive_FrameBegin",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=34b05d04_920e_456e_b7a7_141ff5bba1a5}{I:'$$control.group'} [Frame: <ADMIN> - FRAME_14]",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=34b05d04_920e_456e_b7a7_141ff5bba1a5}{I:'$$control.group'} [Frame: <No Label>]",
                 "displayODFlat": "{Data=34b05d04_920e_456e_b7a7_141ff5bba1a5}{I:'$$control.group'} [Frame: <No Label>]",
                 "idInternal": "34b05d04_920e_456e_b7a7_141ff5bba1a5",
                 "lastIndex": 57,
                 "parentContainer": -1,
                 "displayOD": "{Data=34b05d04_920e_456e_b7a7_141ff5bba1a5}{I:'$$control.group'} [Frame: <No Label>]",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=34b05d04_920e_456e_b7a7_141ff5bba1a5}{I:'$$control.group'} [Frame: <ADMIN> - FRAME_14]",
-                "indentTree": 0,
-                "precalc": {
-                    "ControlHTML": "<!--TAGSTART:34b05d04_920e_456e_b7a7_141ff5bba1a5-->\n<div id=\"{grid.componentname}FRAME_14\" class=\"A5container\"     style=\"width: 190px; \"  ><!-- DIV Container for showHidePanel '{grid.componentName}.FRAME_14'-->\n\t<div class=\"[theme:accordion.base.className|{dialog.style}Accordion]\">\n\t<a \thref=\"#\" id=\"{grid.componentname}FRAME_14.A\"\n\t\tonclick=\"if($('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}').style.display=='none') {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}').style.display='';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_14.R{grid.rowNumber}'),'css/MYICONS/UP.PNG');\n\tthis.className = '[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]';\n} else {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}').style.display='none';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_14.R{grid.rowNumber}'),'css/MYICONS/DOWN.PNG');\n\tthis.className = '[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]';\nreturn false;\n}\n\"\n\t\tclass=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]  \"\n\t\tstyle=\"width: 205px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;\"\n\t\t_aaframeid=\"FRAME_14\" \n\t\t_aaframeopenicon=\"css/MYICONS/UP.PNG\" \n\t\t_aaframeclosedicon=\"css/MYICONS/DOWN.PNG\" \n\t\t_aaframetitleclassname=\"[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]\" \n\t\t_aafremetitlecollapsedclassname=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]\"\n\t\t>\n\t\t<img \tsrc=\"css/MYICONS/DOWN.PNG\" id=\"{grid.componentName}.SHOWHIDEPANELIMG.FRAME_14.R{grid.rowNumber}\" style=\"border:none;vertical-align:middle;\" />&nbsp;ADMIN</a>\n\t\t<div \tid=\"{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}\"\n\t\t\t\tclass=\"[theme:accordion.base.paneClassName|class.ModernFrameBody] \"\n\t\t\t\tstyle=\"width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;; display:none;\">\n"
-                },
-                "isCollapsed": false,
-                "parentIsCollapsed": false,
-                "tmplTxtComputed": false,
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=34b05d04_920e_456e_b7a7_141ff5bba1a5}{I:'$$control.group'} [Frame: <No Label>]",
                 "v": {
                     "FrameTitle": "ADMIN",
                     "Frame": {
@@ -4878,9 +4872,9 @@
                         "showHideEnabled": true,
                         "openIcon": "css/MYICONS/UP.PNG",
                         "closedIcon": "css/MYICONS/DOWN.PNG",
-                        "nonFloating": false,
                         "initialState": "Hidden",
                         "framepanestyle": "width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;",
+                        "nonFloating": false,
                         "oneFrameOpenOnly": false
                     },
                     "securityGroups": "17e56b4e747b4a9bab3cd308064337dc,CustomerAdmins",
@@ -4888,7 +4882,14 @@
                         "javascriptAbstractSetupCode": ""
                     },
                     "_displayText": "[Frame: <ADMIN> - FRAME_14]"
-                }
+                },
+                "indentTree": 0,
+                "precalc": {
+                    "ControlHTML": "<!--TAGSTART:34b05d04_920e_456e_b7a7_141ff5bba1a5-->\n<div id=\"{grid.componentname}FRAME_14\" class=\"A5container\"     style=\"width: 190px; \"  ><!-- DIV Container for showHidePanel '{grid.componentName}.FRAME_14'-->\n\t<div class=\"[theme:accordion.base.className|{dialog.style}Accordion]\">\n\t<a \thref=\"#\" id=\"{grid.componentname}FRAME_14.A\"\n\t\tonclick=\"if($('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}').style.display=='none') {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}').style.display='';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_14.R{grid.rowNumber}'),'css/MYICONS/UP.PNG');\n\tthis.className = '[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]';\n} else {\n\t$('{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}').style.display='none';\n\tA5.u.icon.update($('{grid.componentName}.SHOWHIDEPANELIMG.FRAME_14.R{grid.rowNumber}'),'css/MYICONS/DOWN.PNG');\n\tthis.className = '[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]';\nreturn false;\n}\n\"\n\t\tclass=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]  \"\n\t\tstyle=\"width: 205px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;\"\n\t\t_aaframeid=\"FRAME_14\" \n\t\t_aaframeopenicon=\"css/MYICONS/UP.PNG\" \n\t\t_aaframeclosedicon=\"css/MYICONS/DOWN.PNG\" \n\t\t_aaframetitleclassname=\"[theme:accordion.base.titleSelectedClassName|class.ModernFrameTitle]\" \n\t\t_aafremetitlecollapsedclassname=\"[theme:accordion.base.titleClassName|class.ModernFrameTitleCollapsed]\"\n\t\t>\n\t\t<img \tsrc=\"css/MYICONS/DOWN.PNG\" id=\"{grid.componentName}.SHOWHIDEPANELIMG.FRAME_14.R{grid.rowNumber}\" style=\"border:none;vertical-align:middle;\" />&nbsp;ADMIN</a>\n\t\t<div \tid=\"{grid.componentName}.SHOWHIDEPANELDIV.FRAME_14.R{grid.rowNumber}\"\n\t\t\t\tclass=\"[theme:accordion.base.paneClassName|class.ModernFrameBody] \"\n\t\t\t\tstyle=\"width: 214px; text-align: left; border-style: solid; border-width: 0px; border-color: #c0c0c0; color: #ffffff; background-color: #003399; font-weight: bold;; display:none;\">\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "tmplTxtComputed": false
             },
             {
                 "controlType": "layout_directive_ContainerBegin",
@@ -4910,9 +4911,9 @@
                         },
                         "subType": "None",
                         "edgeOffset": "",
+                        "contentVerticalAlign": "Top",
                         "useFlex": true,
                         "useFlexLeft": false,
-                        "contentVerticalAlign": "Top",
                         "alignItems": ""
                     },
                     "Spacer": {
@@ -5024,11 +5025,11 @@
                                 "bookMarkPanelSize": "3in"
                             }
                         },
-                        "keyboardshortcutkey": "",
                         "tab": {
                             "className": "",
                             "selectedClassName": ""
-                        }
+                        },
+                        "keyboardshortcutkey": ""
                     },
                     "class": "<Default>",
                     "style": "width:1.5in;",
@@ -5090,13 +5091,13 @@
             },
             {
                 "controlType": "layout_directive_FrameEnd",
-                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=f2e2c7f8_3f32_4985_80d3_1bf0a6857965}{I:'vertLineCap'} [Frame End - FRAME_14] �",
+                "display": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=f2e2c7f8_3f32_4985_80d3_1bf0a6857965}{I:'vertLineCap'} [Frame End] �",
                 "displayODFlat": "{Data=f2e2c7f8_3f32_4985_80d3_1bf0a6857965}{I:'$$control.group'} [Frame End] �",
                 "idInternal": "f2e2c7f8_3f32_4985_80d3_1bf0a6857965",
                 "parentContainer": -1,
                 "displayOD": "{Data=f2e2c7f8_3f32_4985_80d3_1bf0a6857965}{I:'$$control.group'} [Frame End] �",
                 "repeatingSectionParentId": -1,
-                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=f2e2c7f8_3f32_4985_80d3_1bf0a6857965}{I:'vertLineCap'} [Frame End - FRAME_14] �",
+                "displayODtree": "{C=#0+0+127,White}{B=White,Light Blue}{F=+B}{Data=f2e2c7f8_3f32_4985_80d3_1bf0a6857965}{I:'vertLineCap'} [Frame End] �",
                 "v": {
                     "Frame": {
                         "BreakType": "After",
@@ -5127,7 +5128,7 @@
         "localsvg": "",
         "saveFileType": "Formatted JSON",
         "keyboardShortcutsJSON": "",
-        "selected": "50b89949_673a_4219_a761_06b127e2d662\n",
+        "selected": "e5b096b3_4046_476a_bfb7_04af10ea5a1b\n",
         "designPaneIndex": 1,
         "masterPaneC": "controls",
         "serverSideEventIndex": 2,
@@ -5138,13 +5139,13 @@
         "_style_hassubthemeTweaks": false,
         "repeatingSectionsAreDirty": true,
         "flagDropdownCascadingChanged": false,
-        "toolBox_value": "layout_directive_StaticText",
+        "toolBox_value": "tabbedUIButton_GridComponent",
         "addinBuildNumber": "5338",
         "addinBuildNumberHighestUsed": "5338",
         "alphaFiveBuildNumber": "12",
         "openedFromTemplate": false,
         "builtWithVersionNumer": 1,
-        "_buildCount": "14",
+        "_buildCount": "33",
         "securityEnabled": true,
         "showHideIsUsed": false,
         "precalc": {
@@ -5163,22 +5164,8 @@
         "version": 1,
         "alias": "tbi",
         "linkedResources": "",
-        "A5SaveTimeStamp": "20190930222953270",
-        "Livepreview_permissions": "c3b1d0c820614e40b47b5ab25e1dc524,17e56b4e747b4a9bab3cd308064337dc,920f56bd4ba34e51b27f72c792ee65e2",
-        "livePreview_permissions_friendly": "Administrators\nCustomerAdmins\nUsers\n",
+        "A5SaveTimeStamp": "20191002133332770",
         "minimumBuildNumber": "",
-        "__allowCascadingRecalc": true,
-        "style_color_palette": "",
-        "__LPhostName": "Internet Explorer",
-        "showPulseEffect": true,
-        "_style_isInherited": true,
-        "flagShowDeleteConfirmation": true,
-        "flagOptimizedUXTree": false,
-        "flagReanalyzeContainers": false,
-        "_display": "",
-        "useCSSFlexForContainerAlignment": true,
-        "_treeErrors": "",
-        "_flagForceRecalcChildren": true,
         "arguments": [
             {
                 "Name": "ARGTENANTID",
@@ -5191,6 +5178,20 @@
                 "XbasicFunction": ""
             }
         ],
+        "style_color_palette": "",
+        "__LPhostName": "Internet Explorer",
+        "showPulseEffect": true,
+        "_style_isInherited": true,
+        "flagShowDeleteConfirmation": true,
+        "flagOptimizedUXTree": false,
+        "flagReanalyzeContainers": false,
+        "_display": "",
+        "useCSSFlexForContainerAlignment": true,
+        "_treeErrors": "",
+        "_flagForceRecalcChildren": true,
+        "Livepreview_permissions": "c3b1d0c820614e40b47b5ab25e1dc524,17e56b4e747b4a9bab3cd308064337dc,920f56bd4ba34e51b27f72c792ee65e2",
+        "livePreview_permissions_friendly": "Administrators\nCustomerAdmins\nUsers\n",
+        "__allowCascadingRecalc": true,
         "headerHTML": "ACCOUNTING",
         "footerHTML": "Developed by Professional Computer Services 2017(C)",
         "buttonPanel": {
